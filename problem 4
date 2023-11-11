@@ -1,0 +1,6 @@
+string=input("Enter the string : ")
+numberOfIndex=int(input("Enter the number of index to be removed = "))
+for i in range(0,len(string)-1):
+  if i==numberOfIndex:
+    string1=string[:i]+string[i+1:]
+print(string1)
